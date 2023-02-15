@@ -1,0 +1,28 @@
+{
+  "name": "goit-nodejs-03-rest-api-mongodb-mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "start:dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MykhailoHurak/goit-nodejs-03-rest-api-mongodb-mongoose.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MykhailoHurak/goit-nodejs-03-rest-api-mongodb-mongoose/issues"
+  },
+  "homepage": "https://github.com/MykhailoHurak/goit-nodejs-03-rest-api-mongodb-mongoose#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "mongoose": "^6.9.1"
+  }
+}
