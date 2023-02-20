@@ -1,6 +1,9 @@
 const mongoose = require("mongoose")
 
-const DB_HOST = "mongodb+srv://MykhailoHurak:goit-nodejs@cluster0.f28yniy.mongodb.net/playersreader?retryWrites=true&w=majority"
+require("dotenv").config()
+
+// const DB_HOST = "mongodb+srv://MykhailoHurak:<password>@cluster0.f28yniy.mongodb.net/playersreader?retryWrites=true&w=majority"
+const { DB_HOST } = process.env
 
 mongoose.connect(DB_HOST)
     .then(() => console.log("DataBase Connect Success"))
