@@ -1,15 +1,13 @@
 const { Schema, model } = require("mongoose")
 
 const bookSchema = new Schema({
-    name: {
+    title: {
         type: String,
-        required: [true, 'Set name for book'],
+        required: [true, 'Set Title for book'],
     },
-    email: {
+    author: {
         type: String,
-    },
-    phone: {
-        type: String,
+        required: [true, 'Set Author for book'],
     },
      favorite: {
         type: Boolean,
